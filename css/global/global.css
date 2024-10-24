@@ -16,6 +16,10 @@ img {
     display: block;
 }
 
+blockquote {
+    margin: 0px;
+}
+
 /*Somente para arquivos que contenham o .jpg*/
 img[src$=".jpg"] {
     border-radius: 4px;
