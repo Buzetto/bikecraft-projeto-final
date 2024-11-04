@@ -13,6 +13,8 @@
 
 /*Pagina Seguros*/
 @import "./seguros/seguros.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
 
 /*Pagina Termos*/
 @import "./termos/termos.css";
