@@ -37,3 +37,6 @@
 
 /*Orçamento*/
 @import "./orcamento/orcamento.css";
+
+/*Animação*/
+@import "./utilities/animacao.css";
