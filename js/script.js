@@ -65,3 +65,27 @@ galeria.forEach(eventosGaleria);
 if (window.SimpleAnime) {
     new SimpleAnime();
 }
+
+//Criando o envio de emails para teste
+emailjs.init("6ZUZpTZvLss-JxRR2");
+
+document.getElementById('contact-form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Impede o recarregamento da página
+  
+    // Pegue os dados do formulário
+    const form = event.target;
+  
+    // Use a função `sendForm` do EmailJS
+    emailjs.sendForm('service_6zmfjiq', 'service_6zmfjiq', form)
+      .then(
+        function () {
+          alert('E-mail enviado com sucesso!');
+        },
+        function (error) {
+          console.error('Erro:', error);
+          alert('Erro ao enviar o e-mail. Tente novamente.');
+        }
+      );
+  });
+  
+
