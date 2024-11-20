@@ -67,25 +67,25 @@ if (window.SimpleAnime) {
 }
 
 //Criando o envio de emails para teste
-emailjs.init("6ZUZpTZvLss-JxRR2");
+  // Inicialize o EmailJS com o seu USER_ID
+emailjs.init("6ZUZpTZvLss-JxRR2");  // Substitua com seu USER_ID
 
-document.getElementById('contact-form').addEventListener('submit', function (event) {
-    event.preventDefault(); // Impede o recarregamento da página
-  
-    // Pegue os dados do formulário
-    const form = event.target;
-  
-    // Use a função `sendForm` do EmailJS
-    emailjs.send("service_6zmfjiq","template_csqqdi5", form)
-      .then(
-        function () {
-          alert('E-mail enviado com sucesso!');
-        },
-        function (error) {
-          console.error('Erro:', error);
-          alert('Erro ao enviar o e-mail. Tente novamente.');
-        }
-      );
-  });
+// A função para enviar o formulário
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();  // Impede o envio padrão do formulário
+
+    const formData = new FormData(this); // Coleta os dados do formulário
+
+    // Enviar o formulário usando EmailJS
+    emailjs.sendForm("service_6zmfjiq","template_csqqdi5", this)
+        .then(function(response) {
+            console.log('Mensagem enviada com sucesso!', response);
+            alert("Mensagem enviada com sucesso!");
+        }, function(error) {
+            console.error('Falha ao enviar a mensagem', error);
+            alert("Houve um erro ao enviar a mensagem. Tente novamente.");
+        });
+});
+
   
 
