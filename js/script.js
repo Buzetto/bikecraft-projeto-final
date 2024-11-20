@@ -76,7 +76,7 @@ document.getElementById('contact-form').addEventListener('submit', function (eve
     const form = event.target;
   
     // Use a função `sendForm` do EmailJS
-    emailjs.sendForm('service_6zmfjiq', 'service_6zmfjiq', form)
+    emailjs.send("service_6zmfjiq","template_csqqdi5", form)
       .then(
         function () {
           alert('E-mail enviado com sucesso!');
