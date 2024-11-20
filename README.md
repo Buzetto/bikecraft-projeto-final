@@ -19,8 +19,7 @@ Este projeto foi desenvolvido como parte do curso **HTML&CSS para Iniciantes** d
 
 1. **HTML**: Dividido em seções para melhor compreensão e organização, incluindo classes e IDs para facilitar a estilização e a navegação.
 2. **CSS**: Contém variáveis para consistência de estilos e um CSS reset. Importação de fontes e arquivos específicos para cada página.
-3. **JavaScript (Introdução)**: Aplicação de um pequeno script para envio de formulários, introduzido no final do curso como uma preparação para o próximo módulo focado em JavaScript.
-4. **PHP**: Implementação de um formulário em PHP para processamento e armazenamento de dados enviados pelo usuário, com armazenamento para possibilitar o envio e visualização dos formulários recebidos.
+3. **JavaScript (Introdução)**: Aplicação de um pequeno script para envio de formulários e confirmação via email, introduzido no final do curso como uma preparação para o próximo módulo focado em JavaScript.
 
 ## 🔥 Como Executar o Projeto
 
@@ -29,8 +28,6 @@ Este projeto foi desenvolvido como parte do curso **HTML&CSS para Iniciantes** d
    [git clone [https://github.com/Buzetto/bikecraft-projeto-final.git)]
    
 2. Abra o arquivo index.html no seu navegador para visualizar a página.
-   
-Nota: Para utilizar o formulário, você deve estar com um servidor que suporte PHP, como o XAMPP ou o WAMP, ou hospedar o projeto em um servidor com suporte PHP.
 
 ## 📚 Próximos Passos
 
