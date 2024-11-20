@@ -3,7 +3,7 @@
 Este projeto foi desenvolvido como parte do curso **HTML&CSS para Iniciantes** da plataforma **Origamid**. O objetivo foi colocar em prática todos os conceitos fundamentais de HTML e CSS, construindo uma página completa e funcional, e utilizando boas práticas de desenvolvimento para iniciantes.
 
 ## 🚀 Demonstração
-[Aqui você pode conferir o projeto online](bikecraft-projeto-final.vercel.app).
+[Aqui você pode conferir o projeto online](https://bikecraft-projeto-final.vercel.app/).
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
 
